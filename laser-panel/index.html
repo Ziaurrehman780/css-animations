@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laser-panel</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="scene">
+        <div class="panel"></div>
+        <div class="laser"></div>
+        <div class="sparks">
+          
+        </div>
+        <div class="drop"></div>
+      </div>
+
+      <script>
+
+        let sparks = document.querySelector(".sparks");
+        for (let i = 0; i < 120; i++){
+          const icon = document.createElement('i');
+          sparks.appendChild(icon);
+        }
+      </script>
+      
+</body>
+</html>

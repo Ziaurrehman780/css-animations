@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sign-in form</title>
+    <link rel="stylesheet" href="gform.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmmw_maXP4rYcUzzGNrHAySc6uVRASViqYu86LHnJkolLodfNQ2_9LfABtNdtFCqRjsHE&usqp=CAU" alt="google logo">
+        </div>
+        <div class="form-box">
+            <h1>Sign in</h1>
+            <span>Use Your Google Account</span>
+            <form>
+                <div class="input-box">
+                    <input type="email" name="email" id="email-field" class="input-field" required autofocus autocomplete="off">
+                    <label for="email-field" class="placeholder">Email or phone</label>
+                </div>
+                <div class="input-box">
+                    <input type="password" name="password" id="password-field" class="input-field" required>
+                    <label for="password-field" class="placeholder">Email your password</label>
+                </div>
+                <a href="#" class="forgot">forgot email?</a>
+                <div class="button">
+                    <a href="#" class="create-account">Create account</a>
+                    <button class="sign-in">Next</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="gform.js"></script>
+</body>
+</html>
